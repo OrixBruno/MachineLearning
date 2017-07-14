@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetAPiRestfull", "..\..\..\Github\AspNetAPiRestfull\AspNetAPiRestfull.csproj", "{634D9E4F-A1F7-4CB7-B8A0-067D5AFF58D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetAPiRestfull", "AspNetAPiRestfull\AspNetAPiRestfull.csproj", "{4AB42745-2C99-4936-AFC4-F82D7CBAF642}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{634D9E4F-A1F7-4CB7-B8A0-067D5AFF58D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{634D9E4F-A1F7-4CB7-B8A0-067D5AFF58D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{634D9E4F-A1F7-4CB7-B8A0-067D5AFF58D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{634D9E4F-A1F7-4CB7-B8A0-067D5AFF58D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB42745-2C99-4936-AFC4-F82D7CBAF642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB42745-2C99-4936-AFC4-F82D7CBAF642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB42745-2C99-4936-AFC4-F82D7CBAF642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB42745-2C99-4936-AFC4-F82D7CBAF642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
