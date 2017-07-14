@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using AspNetAPiRestfull.IServices;
+using AspNetAPiRestfull.Services;
 
 namespace AspNetAPiRestfull
 {
@@ -30,7 +32,7 @@ namespace AspNetAPiRestfull
             // Add framework services.
             services.AddMvc();
 
-            //services.AddScoped<IPregacaoService, PregacaoService>();
+            services.AddScoped<IDadosService, DadosService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

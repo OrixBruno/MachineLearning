@@ -17,7 +17,7 @@ namespace AspNetAPiRestfull
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseUrls("http://localhost:9999", "http://localhost:5101", "http://*:5102")
+                .UseUrls("http://localhost:5005", "http://*:5100")
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
