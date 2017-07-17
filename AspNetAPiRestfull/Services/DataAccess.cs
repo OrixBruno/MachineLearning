@@ -26,7 +26,7 @@ namespace AspNetAPiRestfull.Services
         }
         private void CollectionExist(string collection)
         {
-            var filter = new BsonDocument("name", collection);
+            var filter = new BsonDocument("DatePick", collection);
             var collectionCursor = _db.ListCollections(new ListCollectionsOptions { Filter = filter });
             var exist = collectionCursor.Any();
             if (!exist)
